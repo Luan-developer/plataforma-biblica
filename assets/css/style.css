@@ -130,7 +130,7 @@ section {
 }
 
 
-section>span {
+section>.copy {
     position: absolute;
     right: 0;
     margin-right: 20px;
@@ -142,7 +142,11 @@ section>span {
     color: #000;
 }
 
-span:hover {
+.content {
+    margin-bottom: 10px;
+}
+
+.copy:hover {
     background-color: #198754;
     color: white;
 }
@@ -204,4 +208,8 @@ button#searchButton:hover {
 footer {
     text-align: center;
     color: white;
+}
+
+.hidden {
+    display: none;
 }
